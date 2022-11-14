@@ -9,5 +9,5 @@ const path = require('path');
 app.listen(3000, () => console.log('Example app listening on port 3000!'));
 
 app.get('/', function(request,response)){
-  response.sendFile(path.join(__dirname,''));
+  response.sendFile(path.join(__dirname,'html/index.html'));
 }
